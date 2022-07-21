@@ -1,10 +1,13 @@
 # Corrospondence
-Functions created to corresponding industry codes such as corresponding NAICS, HS, ISIC, CPC, and more.
+Functions created to help create corrospondence sheets between industry
+codes such as corresponding NAICS, HS, ISIC, CPC, and more.
 
 These functions where created to mainly help clean and harmonize data
 across different corrospondence sheets between industry codes, such as the
 NAICS code, HS code, and more. A copy of the masterlist I created with these
 functions will be posted on my GitHub.
+
+General Notes:
 
 Any changes made to Excel files from Python can NOT be reversed on Excel, so
 always create a copy of the Excel file or sheet before making any changes.
