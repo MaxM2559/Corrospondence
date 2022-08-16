@@ -7,7 +7,7 @@ across different corrospondence sheets between industry codes, such as the
 NAICS code, HS code, and more. A copy of the masterlist I created with these
 functions will be posted on my GitHub.
 
-##General Notes
+# General Notes
 
 Any changes made to Excel files from Python can NOT be reversed on Excel, so
 always create a copy of the Excel file or sheet before making any changes.
