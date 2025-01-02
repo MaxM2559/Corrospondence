@@ -1,26 +1,20 @@
-# Corrospondence
-Functions created to help create corrospondence sheets between industry
-codes such as corresponding NAICS, HS, ISIC, CPC, and more.
+# Correspondence
+The first-ever tools to create correspondence sheets for international industry codes such as NAICS, HS, ISIC, CPC, and their variations. To my knowledge, there did not exist a single correspondence sheet capable of translating codes across all variations of industry codes. Only sheets corresponding to the same code across years or just two different codes existed.
 
-These functions where created to mainly help clean and harmonize data
-across different corrospondence sheets between industry codes, such as the
-NAICS code, HS code, and more. A copy of the masterlist I created with these
-functions will be posted on my GitHub.
+Correspondence_Functions.py contains the functions created to help clean and harmonize data across various correspondence sheets, which I searched the web for.
 
-# General Notes
+A copy of the harmonized list is included here. After some data exploration, I found that there is no single best list possible. The data becomes more and more abstracted as it moves further from the starting list. At a certain point, codes near the end of the list are hundreds of characters long.
 
-Any changes made to Excel files from Python can NOT be reversed on Excel, so
-always create a copy of the Excel file or sheet before making any changes.
+My solution is to create different lists based on different needs. A master list is not feasible, so creating shorter lists with different starting points is the best solution I've found. The functions in the Python file are designed to facilitate this process.
 
-Always save and close the Excel file before marking any alterations with Python.
+# Notes for Future Work
 
-Working with Microsoft Excel through Python can be very slow at times. I
-usually implement several print statements in my function to check if my
-program is running correctly.
+Any changes made to Excel files from Python cannot be reversed in Excel, so always create a copy of the Excel file or sheet before making any changes.
 
-When working with new Excel files, sometimes the file must first be opened
-and saved before Python can alter it. Also, be sure to enable editing for
-said Excel files.
+Always save and close the Excel file before making any alterations with Python.
 
-Python will only alter the most recently selected and saved Excel sheet unless
-otherwise specified.
+Working with Microsoft Excel through Python can be very slow. I usually implement several print statements in my functions to check if my program is running correctly.
+
+When working with new Excel files, sometimes the file must first be opened and saved before Python can alter it. Also, be sure to enable editing for these Excel files.
+
+Python will only alter the most recently selected and saved Excel sheet unless otherwise specified.
