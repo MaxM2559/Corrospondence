@@ -7,6 +7,9 @@ A copy of the harmonized list is included here. After some data exploration, I f
 
 My solution is to create different lists based on different needs. A master list is not feasible, so creating shorter lists with different starting points is the best solution I've found. The functions in the Python file are designed to facilitate this process.
 
+![NAICS_2017_codes](https://github.com/user-attachments/assets/a6c04a95-e06c-4c2c-b6b8-d3e7496dc1f1)
+![HS_2017_codes](https://github.com/user-attachments/assets/5b49ca18-f93a-4999-a107-9f86d74be033)
+
 # Notes for Future Work
 
 Any changes made to Excel files from Python cannot be reversed in Excel, so always create a copy of the Excel file or sheet before making any changes.
